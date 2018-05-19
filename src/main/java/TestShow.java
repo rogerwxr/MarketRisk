@@ -26,8 +26,11 @@ public class TestShow {
 	@Test
 	public void test15() {
 		String z = new Hello().show(15);         
-        assertThat(z, is("Fizz"));  
+        assertThat(z, is("FizzBuzz"));  
 	}
-
-
+	@Test
+	public void test35() {
+		String z = new Hello().show(35);         
+        assertThat(z, is("FizzBuzz"));  
+	}
 }

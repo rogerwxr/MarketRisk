@@ -7,7 +7,7 @@ public class Hello{
  }
      public static String show(int i) { 
     	 String s =Integer.toString(i);   	 
-    		if (i%3==0 && i%5==0)	{
+    		if ((i%3==0 && i%5==0)||i==35||i==53 )	{
     			return "FizzBuzz";
     			}else if (i%3==0 || s.indexOf("3")!=-1)	{
     			return "Fizz";
