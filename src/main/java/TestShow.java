@@ -7,6 +7,12 @@ import org.junit.Test;
 public class TestShow {
 
 	@Test
+	public void test87() {
+		String z = new Hello().show(88);         
+        assertThat(z, is("88"));  
+	}
+	
+	@Test
 	public void test3() {
 		String z = new Hello().show(3);         
         assertThat(z, is("Fizz"));  
