@@ -17,10 +17,17 @@ public class TestShow {
 		String z = new Hello().show(5);         
         assertThat(z, is("Buzz"));  
 	}
+	
 	@Test
-	public void test35() {
+	public void test13() {
+		String z = new Hello().show(13);         
+        assertThat(z, is("Fizz"));  
+	}
+	@Test
+	public void test15() {
 		String z = new Hello().show(15);         
         assertThat(z, is("Fizz"));  
 	}
+
 
 }
