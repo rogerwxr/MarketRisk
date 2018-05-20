@@ -14,7 +14,7 @@
             <groupId>junit</groupId>  
             <artifactId>junit</artifactId>  
             <version>4.10</version>  
-            <scope>test</scope>  
+            <!--scope>test</scope-->  
         </dependency>  
     </dependencies>  
     <build>  
@@ -43,7 +43,7 @@
      		<version>2.19</version>
     		 <configuration>
          	<includes>
-             	<include>**/*Test.java</include>
+             	<include>**/*TestShow.java</include>
          	</includes>
      		</configuration>
   	    </plugin>
